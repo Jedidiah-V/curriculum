@@ -42,6 +42,8 @@ This section contains a general overview of topics that you will learn in this l
 
   1. Before diving into the command line lesson, you'll want to know how to create a file. You can do so with the `touch` command. Open your terminal and enter `ls` (the `l` is a lowercase `L`). `ls` will show you the files and folders in the current directory (or will show nothing if the current directory is empty). <span id="create-file">Create a file</span> called `test.txt` by entering this in your terminal: `touch test.txt`. Now enter `ls` once again. You should see `test.txt` listed in the output. You can also create more than one file at once using the `touch` command. Enter `touch index.html script.js style.css` and press the enter. Then enter `ls` once more. You should see the files in the output. Here is a small way that the terminal reveals its power. How long would it have taken to create all three of those files with your mouse? Thanks, terminal.
   2. Read through [chapter 1 of Conquering the Command Line](https://www.softcover.io/read/fc6c09de/unix_commands/basics).
+     Note: When it comes to deleting files and directories, this chapter link only teaches how to delete files. Attempting to use the same command to delete a directory may give the error "rm: cannot remove '<directory name>': Is a directory". Similar to copying directories (as the chapter link illustrates), the recursive flag `-r` must be used to delete a directory. Here is an article link that elaborates: https://www.maketecheasier.com/delete-directory-linux/
+
 </div>
 
 
